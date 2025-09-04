@@ -1,3 +1,6 @@
+#JUSTIN ISARAPHANICH 9/3/2025 LAST MODIFIED
+#INITIALIZE A DATABASE FILE, CREATE THE TABLES
+
 from flask import Flask
 from config import Config
 from database import db

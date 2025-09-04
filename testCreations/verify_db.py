@@ -1,3 +1,6 @@
+#JUSTIN ISARAPHANICH 9/3/2025 LAST MODIFIED
+#VERIFY THE DATABASE FILE, PRINT THE TABLES
+
 import sqlite3
 
 conn = sqlite3.connect('instance/satellite.db')
