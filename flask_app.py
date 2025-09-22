@@ -33,13 +33,6 @@ def add_data():
     db.session.commit()
     return jsonify({'message': 'Data added successfully'})
 
-@app.route('/<int:id>/delete', methods=['DELETE'])
-def delete_date(id):
-    data = Data.query.get_or_404(id)
-    db.session.delete(data)
-    db.session.commit()
-    return jsonify({'message': 'Data entry deleted successfully'})
-
 
 if __name__ == '__main__':
     app.run(debug=True)
